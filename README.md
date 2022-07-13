@@ -1,16 +1,161 @@
-### Hi there 👋
 
-<!--
-**nifan950624/nifan950624** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 倪 凡
 
-Here are some ideas to get you started:
+13476539566 | lovehuangman@gmail.com | [知乎](https://www.zhihu.com/people/ni-fan-23-72/posts) [博客](http://nifan.xyz)
+27岁 | 汉 | 武汉 | Web 前端工程师 | 面议
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 专业技能
+
+- 熟悉 JavaScript、CSS3、HTML5、ES6+规范
+- 熟练掌握Vue全家桶、TypeScript，能熟练运用jQuery、Bootstrap等框架
+- 熟悉 React、React-Hooks，有 React 开发经验
+- 熟悉微信小程序开发 、移动端 H5 混合式开发
+- 熟练掌握 eCharts、G6、dataV、D3 等数据可视化库
+- 熟练掌握开发编辑器 Vim，以及版本控制工具 Git、SVN 等
+- 熟悉 npm、webpack 等前端工程化、自动化工具的使用
+- 熟悉前后端敏捷迭代开发、Linux 基本操作命令
+- 了解 Node.js、Golang，能使用其开发简单的 Web Server
+
+## 工作经历
+
+### 武汉翌擎智能科技有限公司<span style="font-size: 14px;margin-left: 10px;">web前端开发工程师  出行服务  2021 年 04 月 - 至今</span>
+
+#### 工作内容
+
+- 作为前端技术 owner 主导 FM Sass 系统，目前开通广州、深圳、青岛等电台，日活 DAU 1000+。
+- 重构 FM C、B端留言区域，封装 MessageBoard 组件，Table等公共组件。
+- 组织项目组代码 review ，小组同学代码水平显著提升。
+- 参与项目组前端人员招聘工作。
+- 负责洗车店铺前端开发，及接入层接口编写。
+
+> 出行服务，属于微信个人中心宫格下的一个入口，包括服务类：打车、代驾、洗车、加油，应用类：FM、车卡等。
+
+#### **FM Sass 系统**
+
+出行服务的第一个C2B项目，助力传统交通电台行业实现升级和新基建。用户可以在出行服务小程序中通过固定入口参与当地交通广播的实时互动、收听节目、查阅路况信息等。
+
+- 使用技术栈：
+  - 2B: Vue2.0 + VueRouter + Element + eCharts
+  - 2C: 原生小程序开发
+
+**我的职责：**
+
+  1. 小组人员的任务分配
+  2. 需求落地实现的方案
+  3. B端、以及C端接入层版本发布
+  4. 解决项目中的重难点，C端留言发送延迟、滚动阴影，B端节目表编辑、定时器滥用等
+  5. 替换组件库为Tdesign
+  6. 项目公共代码的开发及维护
+  7. review 小组同学提交的代码并给出修改建议
+
+#### TMS 基础建设
+
+- TMSGO 埋点管理模块的建设（Vue 3.0 + ElementPlus）
+  1. 页面编写及接口对接
+  2. 更换组件库为 Tdesign
+- TMSKIT 前期的需求开发
+  1. webpack 依赖变更后动态更新 entry
+- 文档输出
+  1. 新人引导
+  2. 关于qiankun的实践调研
+  3. 如何使用全埋点？
+- TMSUI 部分组件的开发与维护
+
+### 武汉中科通达高新技术股份有限公司<span style="font-size: 14px;margin-left: 10px;">前端开发工程师 研发部门 2020 年 07 月 - 2021 年 04 月</span>
+
+#### 多维雪亮系统
+
+一款针对公安警察，对人员、车辆数据进行监测和查询的 Web 系统，主要功能：人车档案、人车研判（条件特征查询， 以图搜图）、人车轨迹、设备抓拍实时历史视频播放等，项目接手以来前端由本人独自开发。
+
+- 使用技术栈：Vue2.0 + VueRouter + Vuex + citms-UI + eCharts + D3.js 等
+
+**我的职责：**
+
+  1. 负责项目多个模块的静态页面开发及接口对接
+  2. 负责编写项目可复用的组件及业务组件
+  3. 与 WebGIS 完成前端模块和地图的交互
+  4. 报警消息通知状态、列表及响铃开发
+  5. 重点人员地图撒点，实时跟随等
+  6. CSS3 变量实现主题颜色一键切换
+  7. iframe 嵌套人员档案，车辆档案等
+  8. 使用 D3.js 实现人员关联脑图的样式
+
+#### 雪亮奇兵 App
+
+基于多维大数据的平台部分功能完成的一款移动端 App 的项目，主要功能：车辆、人员、重点人等数据查询。
+
+- 使用技术栈：Vue2.0 + VueRouter + Vuex + Vant
+
+**我的职责：**
+
+  1. 为该项目编写可复用的组件及定制组件
+  2. 使用 Vant 快速完成项目静态页面的开发
+  3. 使用 video.js 库完成移动端实时视频播放的开发
+  4. 在 PC 端的基础上完成使用 MapBox 完成人员、车辆巡航路线展示（实时和历史）。
+  5. 在地图上高亮点位显示实时报警数据
+  6. 使用 Vant 编写日历加时间十分秒选择控件
+  7. 使用 Vant 编写多选择器组件
+
+#### citms-ui 组件库
+
+一款针对业务的的 Vue 组件库，公司项目都是基于这个组件库对业务需求进行开发。
+
+**我的职责：**
+
+  1. 负责业务组件视频播放器的开发
+  2. 负责业务组件列表详情的开发
+  3. 负责业务组件通用搜索边栏的开发
+  4. 图像对比组件的开发
+  5. 图片放大镜，图片上传组件基于业务再封装
+  6. 和 WebGIS 工程师开发可复用轨迹查询，地图洒点组件
+  7. 负责维护个别组件升级功能的需求开发
+
+### 北京易帮投缘武汉分公司<span style="font-size: 14px;margin-left: 10px;">前端开发工程师 研发部 2019 年 02 月 - 2020 年 06 月</span>
+
+该公司主要帮创业公司进行产品开发，创业公司负责提供需求、产品进行对接，
+确定需求后，后端开始开发，产品制作出原型 交互，UI 针对原型设计出页面提供给前端开发。
+
+#### 逸果商城
+
+一款跨境美妆商城小程序，项目前端由本人一人完成，使用小程序原生语言开发。
+
+**我的职责：**
+
+  1. 负责前期项目页面的布局和样式。
+  2. 页面的多级联动。
+  3. CSS 手写优惠券样式。
+  4. 用户登陆态判断跳转 login 页面。
+  5. 购物车及订单用户状态判断。
+  6. 商品列表展示及换页。
+  7. 各种提示、弹窗等。
+  8. 购物车结算，优惠券选择弹出，满减选择等多处小功能。
+  9. 用户分享二维码，扫码进入商城等
+
+### 开源项目及作品
+
+#### generateForm
+
+基于Element-UI Form表单组件实现的一款From生成器，使用json的格式将配置传入组件即可，有了它再也不用担心Form表单了。[预览](https://nifan950624.github.io/json2form/demo/)
+
+#### njsp
+
+一个 jsonp 库，处理一些 jsonp 格式的跨域请求，使用高阶函数，
+  promisfly，使用 webpack 打包成 umd 资源库，已经发布到 npm。[预览](https://github.com/nifan950624/jsonpRequest)
+  **安装使用：** \`npm install njsp --save\`
+
+#### wenjuan-result
+
+使用 node 编写，爬取问卷网题目答案，使用正则对 html 变量 project 匹配，
+  对答案进行解析，渲染成 html。[预览](https://github.com/nifan950624/wenquan-result)
+
+#### 会动的简历
+
+如果纸质的简历不好看看看这个简历吧。[预览](https://nifan950624.github.io/animation-resume/dist/index.html)。
+
+#### 去哪儿导航
+
+使用原生 JavaScript 编写，按下键盘即可跳到对应的网址。[预览](https://nifan950624.github.io/gone-navigation/index.html)
+
+## 教育经历
+
+**武汉纺织大学** - 国际经济与贸易 本科 经济学院 2015 年 09 月 - 2019 年 06 月

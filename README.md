@@ -2,7 +2,6 @@
 # 倪 凡
 
 13476539566 | lovehuangman@gmail.com | [知乎](https://www.zhihu.com/people/ni-fan-23-72/posts) [博客](http://nifan.xyz)
-27岁 | 汉 | 武汉 | Web 前端工程师 | 面议
 
 ## 专业技能
 
